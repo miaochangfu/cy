@@ -1,0 +1,10 @@
+<view name="GameFM" extend="wy.BaseSprite" width="624" height="432">
+  <Image name="GameFM_bg.png" src="GameFM/GameFM_bg.png" x="0" y="0" width="624" height="432" id="bg"/>
+  <Label text="label" align="center" size="30" color="0xffffff" x="253" y="32" width="100" height="34" id="timeTxt"/>
+  <Image name="GameFM_eleImgB.png" src="GameFM/GameFM_eleImgB.png" x="230" y="104" width="82" height="81" id="eleImg1"/>
+  <Image name="GameFM_eleImgB.png" src="GameFM/GameFM_eleImgB.png" x="317" y="104" width="82" height="81" id="eleImg2"/>
+  <Image name="GameFM_eleImgB.png" src="GameFM/GameFM_eleImgB.png" x="405" y="104" width="82" height="81" id="eleImg3"/>
+  <Image name="GameFM_eleImgA.png" src="GameFM/GameFM_eleImgA.png" x="143" y="104" width="80" height="80" id="eleImg0"/>
+  <Image name="GameFM_eleImgC.png" src="GameFM/GameFM_eleImgC.png" x="180" y="232" width="104" height="102" id="chooseA"/>
+  <Image name="GameFM_eleImgC.png" src="GameFM/GameFM_eleImgC.png" x="342" y="232" width="104" height="102" id="chooseB"/>
+</view>

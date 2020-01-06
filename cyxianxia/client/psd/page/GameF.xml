@@ -1,0 +1,13 @@
+<view name="GameF" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="GameFM_bg.jpg" src="GameF/GameFM_bg.jpg" x="0" y="0" width="750" height="1334" id="bg" />
+     <Image name="GameFM_backBtn.png" src="GameF/GameFM_backBtn.png" x="21" y="13" width="99" height="55" id="backBtn" />
+     <Image name="GameF_fhBtn.png" src="GameF/GameF_fhBtn.png" x="627" y="1065" width="89" height="83" id="fhBtn" />
+     <Image name="GameF_fhImg.png" src="GameF/GameF_fhImg.png" x="697" y="1123" width="22" height="22" id="fhImg" />
+     <Label text="label" align="left" size="20" color="0" x="702" y="1126" width="11" height="16" id="fhTxt" />
+     <Image name="GameF_theme2.png" src="GameF/GameF_theme2.png" x="295" y="365" width="162" height="42" id="theme2" />
+     <Image name="GameF_selfImg.png" src="GameF/GameF_selfImg.png" x="256" y="969" width="239" height="114" id="selfImg" />
+     <Image name="GameF_redImg.png" src="GameF/GameF_redImg.png" x="50" y="864" width="178" height="228" id="redImg" />
+     <Image name="GameF_blueImg.png" src="GameF/GameF_blueImg.png" x="50" y="158" width="178" height="228" id="blueImg" />
+     <Image name="headBit.png" src="GameF/headBit.png" x="84" y="185" width="111" height="110" />
+     <Image name="GameF_theme.png" src="GameF/GameF_theme.png" x="265" y="15" width="249" height="53" id="theme" />
+</view>

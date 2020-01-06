@@ -1,0 +1,13 @@
+<view name="ResultF" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="ResultF_bg.png" src="ResultF/ResultF_bg.png" x="46" y="216" width="660" height="854" id="bg"/>
+  <Label text="label" align="left" size="23" color="0xfff17a" x="378" y="897" width="150" height="25" id="txt3"/>
+  <Label text="label" align="left" size="23" color="0xfff17a" x="378" y="858" width="150" height="25" id="txt2"/>
+  <Label text="label" align="left" size="29" color="0xffffff" x="378" y="812" width="150" height="32" id="txt1"/>
+  <Image name="ResultF_btn1.png" src="ResultF/ResultF_btn1.png" x="109" y="1063" width="242" height="79" id="btn1"/>
+  <Image name="ResultF_btn2.png" src="ResultF/ResultF_btn2.png" x="398" y="1063" width="242" height="79" id="btn2"/>
+  <Image name="ResultF_win1.png" src="ResultF/ResultF_win1.png" x="71" y="357" width="131" height="139" id="win1"/>
+  <Image name="ResultF_win0.png" src="ResultF/ResultF_win0.png" x="73" y="585" width="136" height="128" id="win0"/>
+  <Image name="ResultF_theme2.png" src="ResultF/ResultF_theme2.png" x="257" y="238" width="250" height="85" id="theme2"/>
+  <Image name="ResultF_theme1.png" src="ResultF/ResultF_theme1.png" x="255" y="238" width="252" height="86" id="theme1"/>
+</view>

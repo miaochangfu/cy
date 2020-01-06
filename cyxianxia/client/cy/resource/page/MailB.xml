@@ -1,0 +1,9 @@
+<view name="MailB" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="Mail_bg.png" src="MailB/Mail_bg.png" x="41" y="216" width="666" height="903" id="bg"/>
+  <Image name="Mail_btn1.png" src="MailB/Mail_btn1.png" x="98" y="269" width="566" height="105" id="btn1"/>
+  <Image name="Mail_bgB.png" src="MailB/Mail_bgB.png" x="69" y="351" width="595" height="649" id="bgB"/>
+  <Image name="Mail_btn3.png" src="MailB/Mail_btn3.png" x="98" y="977" width="566" height="104" id="btn3"/>
+  <Image name="Mail_backBtn.png" src="MailB/Mail_backBtn.png" x="630" y="195" width="65" height="64" id="backBtn"/>
+  <Image name="Mail_theme.png" src="MailB/Mail_theme.png" x="26" y="191" width="169" height="201" id="theme"/>
+</view>

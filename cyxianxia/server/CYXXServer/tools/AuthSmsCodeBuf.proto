@@ -1,0 +1,7 @@
+option java_package="protobuf";
+option java_outer_classname="AuthSmsCodeBuf";
+
+message AuthSmsCodeVo{
+	required string mobile = 1;
+	required int32 type = 2;
+}

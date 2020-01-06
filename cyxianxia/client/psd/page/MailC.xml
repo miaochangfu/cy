@@ -1,0 +1,14 @@
+<view name="MailC" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="MailC/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="Mail_bg.png" src="MailC/Mail_bg.png" x="41" y="216" width="666" height="903" id="bg" />
+     <Image name="Mail_btn1.png" src="MailC/Mail_btn1.png" x="98" y="269" width="566" height="105" id="btn1" />
+     <Image name="Mail_btn2.png" src="MailC/Mail_btn2.png" x="98" y="350" width="566" height="104" id="btn2" />
+     <Image name="Mail_btn3.png" src="MailC/Mail_btn3.png" x="98" y="429" width="566" height="104" id="btn3" />
+     <Image name="Mail_bgC.png" src="MailC/Mail_bgC.png" x="69" y="430" width="595" height="650" id="bgC" />
+     <Image name="MailC_item3.png" src="MailC/MailC_item3.png" x="420" y="618" width="102" height="55" />
+     <Image name="MailC_item4.png" src="MailC/MailC_item4.png" x="531" y="618" width="102" height="55" />
+     <Image name="MailC_item2.png" src="MailC/MailC_item2.png" x="127" y="619" width="492" height="72" />
+     <Image name="MailC_item1.png" src="MailC/MailC_item1.png" x="127" y="535" width="492" height="71" />
+     <Image name="Mail_backBtn.png" src="MailC/Mail_backBtn.png" x="630" y="195" width="65" height="64" id="backBtn" />
+     <Image name="Mail_theme.png" src="MailC/Mail_theme.png" x="26" y="191" width="169" height="201" id="theme" />
+</view>

@@ -1,0 +1,10 @@
+<view name="SetP" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="SetP/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="SetP_ele.png" src="SetP/SetP_ele.png" x="68" y="371" width="570" height="439" id="ele" />
+     <Image name="SetP_musicB_2.png" src="SetP/SetP_musicB_2.png" x="353" y="563" width="83" height="35" id="musciB_2" />
+     <Image name="SetP_musicB_1.png" src="SetP/SetP_musicB_1.png" x="433" y="563" width="83" height="34" id="musciB_1" />
+     <Image name="SetP_musicA_2.png" src="SetP/SetP_musicA_2.png" x="353" y="501" width="83" height="35" id="musciA_2" />
+     <Image name="SetP_musicA_1.png" src="SetP/SetP_musicA_1.png" x="433" y="501" width="83" height="34" id="musciA_1" />
+     <Image name="SetP_kfBtn.png" src="SetP/SetP_kfBtn.png" x="340" y="643" width="74" height="75" id="kfBtn" />
+     <Image name="SetP_backBtn.png" src="SetP/SetP_backBtn.png" x="553" y="377" width="62" height="60" id="backBtn" />
+</view>

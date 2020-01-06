@@ -1,0 +1,11 @@
+<view name="ResultS" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="ResultS_bg.png" src="ResultS/ResultS_bg.png" x="46" y="217" width="660" height="854" id="bg"/>
+  <Label text="label" align="left" size="26" color="0xfff17a" x="386" y="628" width="150" height="29" id="txt3"/>
+  <Label text="label" align="left" size="26" color="0xfff17a" x="386" y="546" width="150" height="29" id="txt2"/>
+  <Label text="label" align="center" size="50" color="0xffffff" x="227" y="391" width="300" height="51" id="txt1"/>
+  <Image name="ResultS_theme.png" src="ResultS/ResultS_theme.png" x="263" y="261" width="220" height="64" id="theme"/>
+  <Image name="ResultS_btn3.png" src="ResultS/ResultS_btn3.png" x="244" y="994" width="242" height="79" id="btn3"/>
+  <Image name="ResultS_btn2.png" src="ResultS/ResultS_btn2.png" x="398" y="780" width="242" height="80" id="btn2"/>
+  <Image name="ResultS_btn1.png" src="ResultS/ResultS_btn1.png" x="109" y="780" width="242" height="80" id="btn1"/>
+</view>

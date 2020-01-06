@@ -1,0 +1,7 @@
+<view name="Welfare" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="Welfare_bg.png" src="Welfare/Welfare_bg.png" x="15" y="202" width="735" height="884" id="bg"/>
+  <Image name="Welfare_btn1_1.png" src="Welfare/Welfare_btn1_1.png" x="113" y="299" width="231" height="62" id="btn1"/>
+  <Image name="Welfare_btn2_1.png" src="Welfare/Welfare_btn2_1.png" x="387" y="299" width="230" height="62" id="btn2"/>
+  <Image name="Welfare_backBtn.png" src="Welfare/Welfare_backBtn.png" x="654" y="267" width="53" height="313" id="backBtn"/>
+</view>

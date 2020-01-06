@@ -1,0 +1,16 @@
+option java_package="protobuf";
+option java_outer_classname="AuthRegistBuf";
+
+message AuthRegistVo{
+	required string mobile = 1;
+	required string password = 2;
+	required string validCode = 3;
+	required string hiName = 4;
+	
+	optional string uuid = 5;
+	optional double lon = 6;
+	optional double lat = 7;
+	optional string avatar = 8;
+	optional string token_id = 9;
+	
+}

@@ -1,0 +1,9 @@
+<view name="Mountain" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="Mountain/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="Mountain_bg.png" src="Mountain/Mountain_bg.png" x="0" y="280" width="749" height="680" id="bg" />
+     <Image name="Mountain_btn2_2.png" src="Mountain/Mountain_btn2_2.png" x="386" y="709" width="258" height="201" id="btn2_2" />
+     <Image name="Mountain_btn2_1.png" src="Mountain/Mountain_btn2_1.png" x="166" y="709" width="258" height="201" id="btn2_1" />
+     <Image name="Mountain_btn1_1.png" src="Mountain/Mountain_btn1_1.png" x="162" y="399" width="154" height="198" id="btn1_1" />
+     <Image name="Mountain_btn1_2.png" src="Mountain/Mountain_btn1_2.png" x="345" y="399" width="154" height="198" id="btn1_2" />
+     <Image name="Mountain_btn1_3.png" src="Mountain/Mountain_btn1_3.png" x="524" y="399" width="154" height="198" id="btn1_3" />
+</view>

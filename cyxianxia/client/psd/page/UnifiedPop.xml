@@ -1,0 +1,7 @@
+<view name="UnifiedPop" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="UnifiedPop/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="UnifiedPop_bg.png" src="UnifiedPop/UnifiedPop_bg.png" x="90" y="424" width="570" height="325" id="bg" />
+     <Label text="label" align="left" size="20" color="0" x="243" y="503" width="263" height="109" id="hintTxt" />
+     <Image name="UnifiedPop_btn2.png" src="UnifiedPop/UnifiedPop_btn2.png" x="438" y="661" width="154" height="61" id="btn2" />
+     <Image name="UnifiedPop_btn1.png" src="UnifiedPop/UnifiedPop_btn1.png" x="154" y="661" width="154" height="61" id="btn1" />
+</view>

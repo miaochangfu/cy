@@ -1,0 +1,14 @@
+<view name="InfoA" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="InfoA_hbBtn.png" src="InfoA/InfoA_hbBtn.png" x="269" y="1045" width="212" height="56" id="hbBtn"/>
+  <Image name="InfoA_ele2.png" src="InfoA/InfoA_ele2.png" x="104" y="556" width="547" height="456" id="ele2"/>
+  <Image name="InfoA_sex1.png" src="InfoA/InfoA_sex1.png" x="358" y="721" width="83" height="35" id="sex1"/>
+  <Image name="InfoA_sex0.png" src="InfoA/InfoA_sex0.png" x="436" y="721" width="83" height="35" id="sex0"/>
+  <Label text="label" align="center" size="27" color="0xffffff" x="225" y="626" width="300" height="30" id="bestScore"/>
+  <Label text="label" align="center" size="25" color="0xffff4b" x="293" y="852" width="190" height="28" id="txt2"/>
+  <Label text="label" align="center" size="25" color="0xffff4b" x="293" y="795" width="190" height="28" id="txt1"/>
+  <Label text="3" align="center" size="18" color="0xffffff" x="470" y="962" width="20" height="20" id="txt4"/>
+  <Label text="3" align="center" size="18" color="0xffffff" x="344" y="961" width="20" height="20" id="txt3"/>
+  <Image name="InfoA_ele1.png" src="InfoA/InfoA_ele1.png" x="235" y="223" width="282" height="322" id="ele1"/>
+  <Label text="label" align="center" size="18" color="0xffffff" x="300" y="394" width="150" height="21" id="nickname"/>
+  <Image name="InfoA_headBit.png" src="InfoA/InfoA_headBit.png" x="322" y="269" width="106" height="106" id="headBit"/>
+</view>

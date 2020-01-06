@@ -1,0 +1,15 @@
+<view name="MatchW" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="MatchW_bg.jpg" src="MatchW/MatchW_bg.jpg" x="0" y="0" width="750" height="1334" id="bg" />
+     <Image name="MatchW_matchImg.png" src="MatchW/MatchW_matchImg.png" x="247" y="507" width="257" height="206" id="matchImg" />
+     <Label text="label" align="left" size="20" color="0" x="330" y="575" width="106" height="54" id="timeTxt" />
+     <Image name="MatchW_item0.png" src="MatchW/MatchW_item0.png" x="13" y="91" width="241" height="333" />
+     <Image name="MatchW_item2.png" src="MatchW/MatchW_item2.png" x="58" y="122" width="152" height="232" />
+     <Image name="MatchW_item1.png" src="MatchW/MatchW_item1.png" x="319" y="126" width="125" height="226" />
+     <Image name="MatchW_themeK.png" src="MatchW/MatchW_themeK.png" x="247" y="13" width="274" height="58" id="themeK" />
+     <Image name="MatchW_theme3.png" src="MatchW/MatchW_theme3.png" x="291" y="35" width="184" height="26" id="theme3" />
+     <Image name="MatchW_theme2.png" src="MatchW/MatchW_theme2.png" x="291" y="34" width="184" height="26" id="theme2" />
+     <Image name="MatchW_theme1.png" src="MatchW/MatchW_theme1.png" x="291" y="36" width="184" height="26" id="theme1" />
+     <Image name="MatchW_backBtn.png" src="MatchW/MatchW_backBtn.png" x="21" y="19" width="99" height="55" id="backBtn" />
+     <Image name="MatchW_shareBtn.png" src="MatchW/MatchW_shareBtn.png" x="272" y="1147" width="204" height="55" id="shareBtn" />
+     <Image name="组_3" src="MatchW/组_3" x="0" y="0" width="0" height="0" />
+</view>

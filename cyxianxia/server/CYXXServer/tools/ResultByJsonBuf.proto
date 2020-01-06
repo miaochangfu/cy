@@ -1,0 +1,9 @@
+option java_package="protobuf";
+option java_outer_classname="ResultByJsonBuf";
+
+message ResultByJsonVo{
+
+	optional string meaasge = 1;
+	optional string sign = 2;
+	
+}

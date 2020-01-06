@@ -1,0 +1,13 @@
+<view name="TypeSH" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="TypeSH_bg.png" src="TypeSH/TypeSH_bg.png" x="0" y="35" width="750" height="1259" id="bg"/>
+  <Image name="TypeSH_sex1.png" src="TypeSH/TypeSH_sex1.png" x="118" y="251" width="60" height="27" id="sex1"/>
+  <Image name="TypeSH_sex0.png" src="TypeSH/TypeSH_sex0.png" x="243" y="251" width="65" height="27" id="sex0"/>
+  <Image name="TypeSH_circle1.png" src="TypeSH/TypeSH_circle1.png" x="289" y="258" width="16" height="16" id="circle2"/>
+  <Image name="TypeSH_circle1.png" src="TypeSH/TypeSH_circle1.png" x="159" y="258" width="16" height="16" id="circle1"/>
+  <Image name="TypeSH_btn1_1.png" src="TypeSH/TypeSH_btn1_1.png" x="84" y="184" width="141" height="44" id="btn1_1"/>
+  <Image name="TypeSH_btn2_1.png" src="TypeSH/TypeSH_btn2_1.png" x="235" y="184" width="141" height="44" id="btn2_1"/>
+  <Image name="TypeSH_btn2_2.png" src="TypeSH/TypeSH_btn2_2.png" x="176" y="180" width="244" height="59" id="btn2_2"/>
+  <Image name="TypeSH_btn1_2.png" src="TypeSH/TypeSH_btn1_2.png" x="28" y="181" width="244" height="59" id="btn1_2"/>
+  <Label text="" x="676" y="147" width="60" height="60" id="backBtn"/>
+</view>

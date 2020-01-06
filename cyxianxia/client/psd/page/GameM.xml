@@ -1,0 +1,14 @@
+<view name="GameM" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="GameFM_bg.jpg" src="GameM/GameFM_bg.jpg" x="0" y="0" width="750" height="1334" id="bg" />
+     <Image name="GameFM_backBtn.png" src="GameM/GameFM_backBtn.png" x="21" y="13" width="99" height="55" id="backBtn" />
+     <Image name="GameM_selfImg.png" src="GameM/GameM_selfImg.png" x="283" y="967" width="186" height="185" id="selfImg" />
+     <Image name="GameM_ele0.png" src="GameM/GameM_ele0.png" x="299" y="476" width="161" height="42" id="ele0" />
+     <Image name="GameFM_fhBtn.png" src="GameM/GameFM_fhBtn.png" x="590" y="1051" width="88" height="83" id="fhBtn" />
+     <Image name="GameFM_fhImg.png" src="GameM/GameFM_fhImg.png" x="660" y="1109" width="22" height="22" id="fhImg" />
+     <Label text="label" align="left" size="20" color="0" x="665" y="1111" width="11" height="16" id="fhTxt" />
+     <Image name="GameM_redImg.png" src="GameM/GameM_redImg.png" x="314" y="339" width="132" height="142" id="redImg" />
+     <Image name="GameM_blueImg.png" src="GameM/GameM_blueImg.png" x="63" y="154" width="132" height="142" id="blueImg" />
+     <Image name="headBit.png" src="GameM/headBit.png" x="87" y="169" width="84" height="83" />
+     <Image name="GameM_chatK.png" src="GameM/GameM_chatK.png" x="400" y="239" width="161" height="123" />
+     <Image name="GameM_theme.png" src="GameM/GameM_theme.png" x="265" y="13" width="249" height="56" id="theme" />
+</view>

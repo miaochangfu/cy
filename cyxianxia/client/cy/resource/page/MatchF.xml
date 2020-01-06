@@ -1,0 +1,9 @@
+<view name="MatchF" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="MatchF_bg.jpg" src="MatchF/MatchF_bg.jpg" x="0" y="0" width="750" height="1334" id="bg"/>
+  <Image name="MatchF_matchImg.png" src="MatchF/MatchF_matchImg.png" x="245" y="547" width="257" height="207" id="matchImg"/>
+  <Label text="30s" align="left" size="39" color="0xf6d562" x="412" y="707" width="105" height="39" id="timeTxt" stroke="2" strokeColor="0x87785d"/>
+  <Image name="MatchF_themeK.png" src="MatchF/MatchF_themeK.png" x="245" y="19" width="274" height="58" id="themeK"/>
+  <Image name="MatchF_theme1.png" src="MatchF/MatchF_theme1.png" x="289" y="42" width="184" height="25" id="theme1"/>
+  <Image name="MatchF_theme2.png" src="MatchF/MatchF_theme2.png" x="289" y="41" width="184" height="26" id="theme2"/>
+  <Image name="backBtn.png" src="Common/backBtn.png" x="19" y="18" width="99" height="55" id="backBtn"/>
+</view>

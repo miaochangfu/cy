@@ -1,0 +1,6 @@
+<view name="InfoC" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="InfoC_item1.png" src="InfoC/InfoC_item1.png" x="54" y="254" width="612" height="107" />
+     <Image name="InfoC_item2.png" src="InfoC/InfoC_item2.png" x="112" y="260" width="87" height="94" />
+     <Image name="InfoC_item3.png" src="InfoC/InfoC_item3.png" x="548" y="253" width="104" height="111" />
+     <Image name="InfoC_item4.png" src="InfoC/InfoC_item4.png" x="548" y="610" width="104" height="111" />
+</view>

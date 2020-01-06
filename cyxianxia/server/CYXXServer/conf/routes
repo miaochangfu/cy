@@ -1,0 +1,72 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+GET    /favicon.ico                            404
+# Home page
+GET   /?                                        Application.index
+
+# Map static resources from the /app/public folder to the /public path
+
+GET     /resources/                                staticDir:public
+*       /{controller}/{action}                  {controller}.{action}
+WS      /websocket/room/socket                  WebSocket.ChatRoomSocket.join
+
+# -------------------- 接口  1----------------------------# 
+
+*    /refreshCache.json     				api.PlayerStatusAction.refreshCache
+*    /getWeiXinUrl.json     				api.PlayerStatusAction.getWeiXinUrl
+*    /getUserInsertAPI.json     			api.PlayerStatusAction.getUserInsertAPI
+*    /getPlayerUserLoginAPI.json     		api.PlayerStatusAction.getPlayerUserLoginAPI
+*    /getWeiXinOpenid.json             		api.PlayerStatusAction.getWeiXinOpenid
+*    /getWeiXinInsert.json             		api.PlayerStatusAction.getWeiXinInsert
+
+*    /getPlayerFriendListAPI.json        	api.PlayerFriendAction.getPlayerFriendList
+*    /getPlayerFriendRequestAPI.json        api.PlayerFriendAction.getPlayerFriendRequest
+*    /getPlayerFriendRequestListAPI.json    api.PlayerFriendAction.getPlayerFriendRequestList
+*    /getPlayerFriendRefuseAPI.json        	api.PlayerFriendAction.getPlayerFriendRefuse
+*    /getPlayerFriendAgreeAPI.json        	api.PlayerFriendAction.getPlayerFriendAgree
+*    /getPlayerFriendInvitePvpAPI.json      api.PlayerFriendAction.getPlayerFriendInvitePvp
+*    /getPlayerFriendAgreePvpAPI.json       api.PlayerFriendAction.getPlayerFriendAgreePvp
+
+
+*
+*    /getPlayerSetInfoAPI.json        		api.PlayerGameAction.getPlayerSetInfo
+*    /getPlayerPlayerRankingAPI.json        api.PlayerGameAction.getPlayerPlayerRanking
+*    /getPlayerUpdateScoreAPI.json        	api.PlayerGameAction.getPlayerUpdateScore
+*    /getPlayerLotteryInitAPI.json        	api.PlayerGameAction.getPlayerLotteryInit
+*    /getPlayerLotteryAPI.json        		api.PlayerGameAction.getPlayerLottery
+*    /getPlayerQuestionListAPI.json        	api.PlayerGameAction.getPlayerQuestionList
+*    /getPlayerQuestionSatrtAPI.json        api.PlayerGameAction.getPlayerQuestionSatrt
+*    /getPlayerQuestionGameOverAPI.json     api.PlayerGameAction.getPlayerQuestionGameOver
+*    /getPlayerQuestionSkipAPI.json     	api.PlayerGameAction.getPlayerQuestionSkip
+*    /getPlayerQuestionTipsAPI.json     	api.PlayerGameAction.getPlayerQuestionTips
+*    /getPlayerQuestionReviveAPI.json     	api.PlayerGameAction.getPlayerQuestionRevive
+*    /getPlayerMastShopListAPI.json     	api.PlayerGameAction.getPlayerMastShopList
+*    /getPlayerBuyMastShopAPI.json     		api.PlayerGameAction.getPlayerBuyMastShop
+*    /getLogPlayerCoinStatusListAPI.json    api.PlayerGameAction.getLogPlayerCoinStatusList
+*    /getLogPlayerScoreStatusListAPI.json   api.PlayerGameAction.getLogPlayerScoreStatusList    
+*    /getSavePlayerItemAPI.json   			api.PlayerGameAction.getSavePlayerItem 
+*    /getPlayerReviveCountAPI.json        	api.PlayerGameAction.getPlayerReviveCount
+*    /getPlayerGameStartAPI.json        	api.PlayerGameAction.getPlayerGameStart
+*    /getPlayerRankingAPI.json        		api.PlayerGameAction.getPlayerRanking
+*    /getPlayerUpdateInfoAPI.json        	api.PlayerGameAction.getPlayerUpdateInfo
+
+
+
+*    /getPlayerTaskListAPI.json   			api.PlayerTaskAction.getPlayerTaskList 
+*    /getPlayerTaskRewardAPI.json   		api.PlayerTaskAction.getPlayerTaskReward 
+
+
+# -------------------- 接口  2----------------------------# 
+
+
+# -------------------- 页面  1----------------------------# 
+
+POST     /userLoginMain                     	page.UserAction.userLoginMain
+*     /adminIndex                        		page.UserAction.adminIndex
+*     /userInfoView                       	 	page.UserAction.userInfoView
+*     /userInfo                        			page.UserAction.userInfo
+
+# -------------------- 页面  2----------------------------# 

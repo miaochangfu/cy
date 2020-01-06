@@ -1,0 +1,10 @@
+<view name="MailA" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="MailA/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="Mail_bg.png" src="MailA/Mail_bg.png" x="41" y="216" width="666" height="903" id="bg" />
+     <Image name="Mail_btn1.png" src="MailA/Mail_btn1.png" x="99" y="269" width="565" height="105" id="btn1" />
+     <Image name="Mail_bgA.png" src="MailA/Mail_bgA.png" x="69" y="270" width="595" height="650" id="bgA" />
+     <Image name="Mail_btn2.png" src="MailA/Mail_btn2.png" x="98" y="895" width="566" height="104" id="btn2" />
+     <Image name="Mail_btn3.png" src="MailA/Mail_btn3.png" x="98" y="977" width="566" height="104" id="btn3" />
+     <Image name="Mail_backBtn.png" src="MailA/Mail_backBtn.png" x="630" y="195" width="65" height="64" id="backBtn" />
+     <Image name="Mail_theme.png" src="MailA/Mail_theme.png" x="26" y="191" width="169" height="201" id="theme" />
+</view>

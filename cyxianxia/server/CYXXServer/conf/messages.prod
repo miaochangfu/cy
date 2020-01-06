@@ -1,0 +1,14 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+
+UserAPPID=wx04bd8d91d0022fce
+UserAPPSECRET=2d433773e6849724085d9c4e952dfc74
+
+
+Pay_APPID=wx04bd8d91d0022fce
+Pay_APPSECRET=2d433773e6849724085d9c4e952dfc74
+
+
+zhuan_zhang_appid=dPYss3oPLbIr69kKAlMYI6PHznfvP7mW
+zhuan_zhang_slcert_password=1534779941
+

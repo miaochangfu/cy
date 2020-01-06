@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>管理界面 : 用户数据</title>
+<link rel="stylesheet" type="text/css" media="screen" href="@{'/public/layui/css/layui.css'}" />
+<link rel="stylesheet" type="text/css" media="screen" href="@{'/public/layui/css/layui.mobile.css'}" />
+
+</head>
+
+<div class="demoTable">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID：
+  <div class="layui-inline">
+    <input class="layui-input" name="pkId" id="pkId" autocomplete="off">
+  </div>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;昵称：
+  <div class="layui-inline">
+    <input class="layui-input" name="name" id="findName" autocomplete="off">
+  </div>
+  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密令：
+  <div class="layui-inline">
+    <input class="layui-input" name="pass_str" id="findPass_str" autocomplete="off">
+  </div>
+  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市：
+  <div class="layui-inline">
+    <input class="layui-input" name="address" id="findAddress" autocomplete="off">
+  </div>
+  <button class="layui-btn" data-type="reload">搜索</button>
+</div>
+
+<table lay-filter="test-table-height" class="layui-table" id="test"></table>
+
+<script src="@{'/public/layui/layui.all.js'}" type="text/javascript"></script>
+ <script>
+layui.use('table', function(){
+  var table = layui.table;
+  table.render({
+    elem: '#test'
+    ,url:'/userInfo'
+    ,cellMinWidth: 80 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+    ,parseData: function(res){ //res 即为原始返回的数据
+        return {
+          "code": res.code, //解析接口状态
+          "msg": res.msg, //解析提示文本
+          "count": res.count, //解析数据长度
+          "data": res.listPlayer //解析数据列表
+        };
+      }
+  ,limit:10
+  ,page: { //支持传入 laypage 组件的所有参数（某些参数除外，如：jump/elem） - 详见文档
+      layout: ['count', 'prev', 'page', 'next', 'skip'] //自定义分页布局
+      ,first: false //不显示首页
+      ,last: false //不显示尾页
+      
+    }
+    ,cols: [[
+      {field:'id', width:80, title: 'ID', sort: true}
+      //,{field:'money', title: '货币'}
+      ,{field:'nickname', title: '昵称'}
+      ,{field:'headimgurl', title: '头像',templet: '#showimg'}
+      ,{field:'pass_str', title: '密令'}
+      ,{field:'sex', title: '性别' , templet:function(d){
+    		  if(d.sex == "0"){
+    		  	return "未知";
+    		  }else if(d.sex == "1"){
+    		  	return "男";
+    		  }else{
+    		  	return "女";
+    		  }
+      }}
+      ,{field:'score', title: '积分', sort: true}
+      ,{field:'money', title: '金币', sort: true}
+      ,{field:'address', title: '城市'}
+      ,{field:'create_time', title: '创建时间', templet : "<div>{{layui.util.toDateString(d.create_time, 'yyyy-MM-dd HH:mm:ss')}}</div>"}
+      ,{field:'revive_count', title: '复活次数', sort: true}
+      //,{field:'操作', title: '操作', toolbar: '#barDemo'}
+    ]]
+    ,id: 'testReload'
+   	,done:function(res,curr,count){
+           hoverOpenImg();//显示大图
+           $('table tr').on('click',function(){
+               $('table tr').css('background','');
+               $(this).css('background','<%=PropKit.use("config.properties").get("table_color")%>');
+           });
+       }
+  });
+  
+  function hoverOpenImg(){
+	    var img_show = null; // tips提示
+	    $('td img').hover(function(){
+	        var kd=$(this).width();
+	        kd1=kd*3;          //图片放大倍数
+	        kd2=kd*3+30;       //图片放大倍数
+	        var img = "<img class='img_msg' src='"+$(this).attr('src')+"' style='width:"+kd1+"px;' />";
+	        img_show = layer.tips(img, this,{
+	            tips:[2, 'rgba(41,41,41,.5)']
+	            ,area: [kd2+'px']
+	        });
+	    },function(){
+	        layer.close(img_show);
+	    });
+	    $('td img').attr('style','height:35px;width:35px;border-radius:50%;line-height:50px!important;');
+	}
+//监听工具条
+  table.on('tool(test-table-height)', function(obj){ //注：tool是工具条事件名，test是table原始容器的属性 lay-filter="对应的值"
+    var data = obj.data; //获得当前行数据
+    var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+    var tr = obj.tr; //获得当前行 tr 的DOM对象
+   
+    if(layEvent === 'detail'){ //查看
+  	 layer.msg("查看");
+      //do somehing
+    } else if(layEvent === 'del'){ //删除
+      layer.confirm('真的删除行么', function(index){
+    	  layer.msg("删除");
+        //obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+        layer.close(index);
+        //向服务端发送删除指令
+      });
+    } else if(layEvent === 'edit'){ //编辑
+      //do something
+      //同步更新缓存对应的值
+      obj.update({
+        username: '123'
+        ,title: 'xxx'
+      });
+    }
+  });
+  
+  
+  //监听单元格编辑
+  table.on('edit(test-table-height)', function(obj){
+	  layer.msg('修改成功');
+    var value = obj.value //得到修改后的值
+    ,data = obj.data //得到所在行所有键值
+    ,field = obj.field; //得到字段
+    $.ajax({
+        url:'/updatePlayerInfo',
+        type:'POST',
+        data:{id:data.id , score:value},
+        success:function (msg) {
+        	layer.msg('修改成功');
+        }
+    })
+  });
+  
+  
+  var $ = layui.$, active = {
+		    reload: function(){
+		      var findName = $('#findName');
+		      var findPass_str = $('#findPass_str');
+		      var findAddress = $('#findAddress');
+		      var pkId = $('#pkId');
+		      //执行重载
+		      table.reload('testReload', {
+		        page: {
+		          curr: 1 //重新从第 1 页开始
+		        }
+		        , where: { findName: findName.val() , findPass_str: findPass_str.val() 
+		        	, findAddress: findAddress.val() , pkId: pkId.val() }//这里传参  向后台
+		        , url: '/userInfo'
+                , method: 'get'
+		      }, 'data');
+		    }
+		  };
+		  
+		  $('.demoTable .layui-btn').on('click', function(){
+		    var type = $(this).data('type');
+		    active[type] ? active[type].call(this) : '';
+		  });
+  
+});
+
+
+
+
+</script>
+
+<script type="text/html" id="showimg">
+    <img src='{{ d.headimgurl}}'/>
+</script>
+
+<script type="text/html" id="barDemo">
+  <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
+  <!-- 这里同样支持 laytpl 语法，如： 
+  {{#  if(d.id > 2){ }}
+    <a class="layui-btn layui-btn-xs" lay-event="del">删除</a>
+  {{#  } }}
+-->
+</script>

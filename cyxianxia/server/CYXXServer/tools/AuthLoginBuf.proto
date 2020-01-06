@@ -1,0 +1,13 @@
+option java_package="protobuf";
+option java_outer_classname="AuthLoginBuf";
+
+message AuthLoginVo{
+	required string mobile = 1;
+	required string password = 2;
+	
+	optional string uuid = 3;
+	optional double lon = 4;
+	optional double lat = 5;
+	optional string token_id = 6;
+	
+}

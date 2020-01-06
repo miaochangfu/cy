@@ -1,0 +1,14 @@
+<view name="ResultW" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="ResultW/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="ResultW_bg.png" src="ResultW/ResultW_bg.png" x="45" y="70" width="660" height="1065" id="bg" />
+     <Image name="ResultW_btn1.png" src="ResultW/ResultW_btn1.png" x="109" y="1083" width="242" height="79" id="btn1" />
+     <Image name="ResultW_btn2.png" src="ResultW/ResultW_btn2.png" x="398" y="1083" width="242" height="79" id="btn2" />
+     <Label text="label" align="left" size="20" color="0" x="396" y="283" width="139" height="23" id="txt3" />
+     <Label text="label" align="left" size="20" color="0" x="396" y="243" width="102" height="23" id="txt2" />
+     <Label text="label" align="left" size="20" color="0" x="388" y="197" width="23" height="29" id="txt1" />
+     <Image name="ResultW_item1.png" src="ResultW/ResultW_item1.png" x="83" y="343" width="583" height="88" />
+     <Image name="ResultW_item0.png" src="ResultW/ResultW_item0.png" x="83" y="608" width="583" height="88" />
+     <Image name="ResultW_item3.png" src="ResultW/ResultW_item3.png" x="527" y="352" width="128" height="70" />
+     <Image name="ResultW_item4.png" src="ResultW/ResultW_item4.png" x="538" y="463" width="105" height="25" />
+     <Image name="ResultW_item5.png" src="ResultW/ResultW_item5.png" x="562" y="641" width="71" height="27" />
+</view>

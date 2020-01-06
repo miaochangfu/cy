@@ -1,0 +1,9 @@
+<view name="GameF" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="GameFM_bg.jpg" src="GameFM/GameFM_bg.jpg" x="0" y="0" width="750" height="1334" id="bg"/>
+  <Image name="backBtn.png" src="Common/backBtn.png" x="21" y="13" width="99" height="55" id="backBtn"/>
+  <Image name="GameFM_fhBtn.png" src="GameFM/GameFM_fhBtn.png" x="627" y="1065" width="89" height="83" id="fhBtn"/>
+  <Image name="GameF_fhImg.png" src="GameF/GameF_fhImg.png" x="697" y="1123" width="22" height="22" id="fhImg"/>
+  <Label text="3" align="center" size="18" color="0xffffff" x="697" y="1124" width="22" height="20" id="fhTxt"/>
+  <Image name="GameF_theme2.png" src="GameF/GameF_theme2.png" x="295" y="365" width="162" height="42" id="theme2"/>
+  <Image name="GameF_theme.png" src="GameF/GameF_theme.png" x="265" y="15" width="249" height="53" id="theme"/>
+</view>

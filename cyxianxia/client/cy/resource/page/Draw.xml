@@ -1,0 +1,18 @@
+<view name="Draw" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="Draw_bg.png" src="Draw/Draw_bg.png" x="8" y="282" width="736" height="651" id="bg"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="310" y="327" width="128" height="128" id="chooseImg0"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="450" y="381" width="128" height="128" id="chooseImg1"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="506" y="519" width="128" height="128" id="chooseImg2"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="450" y="657" width="128" height="128" id="chooseImg3"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="310" y="711" width="128" height="128" id="chooseImg4"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="173" y="655" width="128" height="128" id="chooseImg5"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="120" y="516" width="128" height="128" id="chooseImg6"/>
+  <Image name="Draw_chooseImg.png" src="Draw/Draw_chooseImg.png" x="174" y="385" width="128" height="128" id="chooseImg7"/>
+  <Image name="Draw_prizeImg.png" src="Draw/Draw_prizeImg.png" x="190" y="349" width="367" height="465" id="prizeImg"/>
+  <Image name="Draw_startBtn.png" src="Draw/Draw_startBtn.png" x="376.5" y="582" width="157" height="166" id="startBtn" anchorX="58" anchorY="106"/>
+  <Image name="Draw_chanceImg.png" src="Draw/Draw_chanceImg.png" x="286" y="646" width="176" height="37" id="chanceImg"/>
+  <Label text="label" align="center" size="20" color="0" x="300" y="654" width="150" height="21" id="chanceTxt"/>
+  <Image name="Draw_startImg.png" src="Draw/Draw_startImg.png" x="344" y="565" width="69" height="38" id="startImg"/>
+  <Image name="backBtn2.png" src="Common/backBtn2.png" x="592" y="258" width="78" height="74" id="backBtn"/>
+</view>

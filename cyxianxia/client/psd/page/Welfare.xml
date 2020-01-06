@@ -1,0 +1,19 @@
+<view name="Welfare" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="Welfare/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="Welfare_bg.png" src="Welfare/Welfare_bg.png" x="15" y="201" width="735" height="884" id="bg" />
+     <Image name="Welfare_item8.png" src="Welfare/Welfare_item8.png" x="398" y="389" width="66" height="39" />
+     <Image name="Welfare_item8.png" src="Welfare/Welfare_item8.png" x="512" y="736" width="118" height="63" />
+     <Image name="Welfare_item7.png" src="Welfare/Welfare_item7.png" x="512" y="667" width="118" height="62" />
+     <Image name="Welfare_item6.png" src="Welfare/Welfare_item6.png" x="512" y="596" width="118" height="63" />
+     <Image name="Welfare_item5.png" src="Welfare/Welfare_item5.png" x="512" y="526" width="118" height="63" />
+     <Image name="Welfare_item4.png" src="Welfare/Welfare_item4.png" x="512" y="454" width="118" height="63" />
+     <Image name="Welfare_item3.png" src="Welfare/Welfare_item3.png" x="512" y="385" width="118" height="63" />
+     <Image name="Welfare_item2.png" src="Welfare/Welfare_item2.png" x="512" y="802" width="118" height="63" />
+     <Image name="Welfare_item1.png" src="Welfare/Welfare_item1.png" x="512" y="870" width="118" height="63" />
+     <Image name="Welfare_item0.png" src="Welfare/Welfare_item0.png" x="107" y="795" width="519" height="5" />
+     <Image name="Welfare_btn1_1.png" src="Welfare/Welfare_btn1_1.png" x="113" y="299" width="231" height="62" id="btn1" />
+     <Image name="Welfare_btn2_1.png" src="Welfare/Welfare_btn2_1.png" x="387" y="299" width="230" height="62" id="btn2" />
+     <Image name="Welfare_btn1_2.png" src="Welfare/Welfare_btn1_2.png" x="113" y="299" width="231" height="62" />
+     <Image name="Welfare_btn2_2.png" src="Welfare/Welfare_btn2_2.png" x="387" y="299" width="230" height="62" />
+     <Image name="Welfare_backBtn.png" src="Welfare/Welfare_backBtn.png" x="654" y="267" width="53" height="313" id="backBtn" />
+</view>

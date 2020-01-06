@@ -1,0 +1,5 @@
+<view name="InfoB" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="InfoB_pop0.png" src="InfoB/InfoB_pop0.png" x="137" y="541" width="486" height="240" id="pop0"/>
+  <Image name="InfoB_pop1.png" src="InfoB/InfoB_pop1.png" x="176" y="687" width="154" height="61" id="pop1"/>
+  <Image name="InfoB_pop2.png" src="InfoB/InfoB_pop2.png" x="426" y="689" width="154" height="61" id="pop2"/>
+</view>

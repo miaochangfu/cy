@@ -1,0 +1,18 @@
+<view name="Game0" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="59" y="301" width="84" height="79" id="game0_0" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="149" y="301" width="84" height="79" id="game0_1" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="241" y="301" width="84" height="79" id="game0_2" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="240" y="469" width="85" height="80" id="game0_7" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="330" y="469" width="85" height="80" id="game0_6" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="330" y="385" width="85" height="80" id="game0_5" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="330" y="301" width="85" height="80" id="game0_3" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="330" y="219" width="85" height="80" id="game0_4" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="421" y="469" width="85" height="80" id="game0_8" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="512" y="555" width="85" height="80" id="game0_10" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="511" y="469" width="85" height="80" id="game0_9" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="512" y="639" width="85" height="80" id="game0_11" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="512" y="725" width="85" height="80" id="game0_12" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="603" y="639" width="85" height="80" id="game0_15" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="330" y="639" width="85" height="80" id="game0_13" />
+     <Image name="Game_rectImg0.png" src="Game0/Game_rectImg0.png" x="421" y="639" width="85" height="80" id="game0_14" />
+</view>

@@ -1,0 +1,5 @@
+<view name="Chat" extend="wy.BaseSprite"  width="675" height="53" >
+     <Image name="Chat_ele1.png" src="Chat/Chat_ele1.png" x="0" y="0" width="675" height="53" id="ele1" />
+     <TextInput text="label" align="left" size="20" color="0" x="116" y="4" width="440" height="43" id="chatTxt" />
+     <Image name="Chat_ele2.png" src="Chat/Chat_ele2.png" x="564" y="5" width="105" height="41" id="ele2" />
+</view>

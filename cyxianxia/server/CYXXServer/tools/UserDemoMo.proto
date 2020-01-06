@@ -1,0 +1,14 @@
+option java_package="protobuf";
+option java_outer_classname="BufUserDemoMo";
+
+message UserDemoMo{
+	required int32 age = 1;
+	required string name = 2;
+	required string password = 3;
+	repeated Book book = 4 ;
+}
+
+message Book{  
+    required string name = 1;  
+    optional string color  = 2;  
+} 

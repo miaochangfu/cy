@@ -1,0 +1,9 @@
+<view name="ResultW" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="ResultW_bg.png" src="ResultW/ResultW_bg.png" x="44" y="68" width="660" height="1065" id="bg"/>
+  <Image name="ResultW_btn1.png" src="ResultW/ResultW_btn1.png" x="109" y="1083" width="242" height="79" id="btn1"/>
+  <Image name="ResultW_btn2.png" src="ResultW/ResultW_btn2.png" x="398" y="1083" width="242" height="79" id="btn2"/>
+  <Label text="label" align="left" size="23" color="0xfff17a" x="388" y="287" width="200" height="25" id="txt3"/>
+  <Label text="label" align="left" size="23" color="0xfff17a" x="388" y="247" width="200" height="25" id="txt2"/>
+  <Label text="label" align="left" size="29" color="0xffffff" x="388" y="201" width="200" height="32" id="txt1"/>
+</view>

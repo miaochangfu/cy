@@ -1,0 +1,10 @@
+<view name="Help" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="Help_bg2.png" src="Help/Help_bg2.png" x="28" y="191" width="698" height="1013" id="bg2" />
+     <Image name="Help_cicleImg.png" src="Help/Help_cicleImg.png" x="291" y="1083" width="19" height="19" id="circleImg1" />
+     <Image name="Help_btn1.png" src="Help/Help_btn1.png" x="107" y="1059" width="155" height="61" id="btn1" />
+     <Image name="Help_btn2.png" src="Help/Help_btn2.png" x="480" y="1059" width="154" height="61" id="btn2" />
+     <Image name="Help_txtImg4.png" src="Help/Help_txtImg4.png" x="133" y="895" width="487" height="66" id="txtImg4" />
+     <Image name="Help_txtImg3.png" src="Help/Help_txtImg3.png" x="167" y="895" width="420" height="66" id="txtImg3" />
+     <Image name="Help_txtImg2.png" src="Help/Help_txtImg2.png" x="213" y="915" width="330" height="30" id="txtImg2" />
+     <Image name="Help_txtImg1.png" src="Help/Help_txtImg1.png" x="168" y="915" width="419" height="30" id="txtImg1" />
+</view>

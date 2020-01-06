@@ -1,0 +1,20 @@
+<view name="Rank" extend="wy.BaseSprite" width="750" height="1334">
+  <Image name="mc.png" src="Common/mc.png" x="0" y="0" width="750" height="1334" id="mc"/>
+  <Image name="Rank_ele0.png" src="Rank/Rank_ele0.png" x="0" y="125" width="750" height="1090" id="ele0"/>
+  <Image name="Rank_upBtn.png" src="Rank/Rank_upBtn.png" x="107" y="939" width="155" height="61" id="upBtn"/>
+  <Image name="Rank_nextBtn.png" src="Rank/Rank_nextBtn.png" x="480" y="939" width="154" height="61" id="nextBtn"/>
+  <Label text="label" align="center" size="25" color="0xffffff" x="271" y="958" width="200" height="30" id="rankTxt"/>
+  <Image name="Rank_self1.png" src="Rank/Rank_self1.png" x="52" y="1026" width="641" height="102" id="self1"/>
+  <Image name="Rank_self3.png" src="Rank/Rank_self3.png" x="153" y="1029" width="89" height="96" id="self3"/>
+  <Label text="label" align="left" size="23" color="0xffffff" x="250" y="1053" width="146" height="25" id="self4"/>
+  <Label text="label" align="left" size="18" color="0xcb6534" x="250" y="1087" width="118" height="20" id="self5"/>
+  <Label text="label" align="center" size="25" color="0xf6cb52" x="474" y="1066" width="195" height="27" id="self6"/>
+  <Label text="label" align="center" size="30" color="0xfdeaaa" x="82" y="1063" width="50" height="31" id="self2"/>
+  <Image name="Rank_btn1_1.png" src="Rank/Rank_btn1_1.png" x="62" y="184" width="141" height="38" id="btn1_1"/>
+  <Image name="Rank_btn2_1.png" src="Rank/Rank_btn2_1.png" x="214" y="184" width="142" height="39" id="btn2_1"/>
+  <Image name="Rank_btn3_1.png" src="Rank/Rank_btn3_1.png" x="366" y="184" width="141" height="38" id="btn3_1"/>
+  <Image name="Rank_btn1_2.png" src="Rank/Rank_btn1_2.png" x="1" y="175" width="243" height="58" id="btn1_2"/>
+  <Image name="Rank_btn2_2.png" src="Rank/Rank_btn2_2.png" x="153" y="175" width="243" height="58" id="btn2_2"/>
+  <Image name="Rank_btn3_2.png" src="Rank/Rank_btn3_2.png" x="306" y="175" width="243" height="58" id="btn3_2"/>
+  <Label text="" x="699" y="153" width="50" height="50" id="backBtn" align="center"/>
+</view>

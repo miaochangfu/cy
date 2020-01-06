@@ -1,0 +1,14 @@
+<view name="MatchF" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="MatchF_bg.jpg" src="MatchF/MatchF_bg.jpg" x="0" y="0" width="750" height="1334" id="bg" />
+     <Image name="MatchF_matchImg.png" src="MatchF/MatchF_matchImg.png" x="245" y="547" width="257" height="207" id="matchImg" />
+     <Label text="label" align="left" size="20" color="0" x="412" y="707" width="75" height="39" id="timeTxt" />
+     <Image name="MatchF_blueImg.png" src="MatchF/MatchF_blueImg.png" x="229" y="111" width="269" height="441" id="blueImg" />
+     <Image name="MatchF_redImg.png" src="MatchF/MatchF_redImg.png" x="0" y="757" width="254" height="440" id="redImg" />
+     <Image name="MatchF_item2.png" src="MatchF/MatchF_item2.png" x="296" y="431" width="155" height="42" />
+     <Image name="MatchF_item1.png" src="MatchF/MatchF_item1.png" x="56" y="794" width="151" height="230" />
+     <Image name="MatchF_item0.png" src="MatchF/MatchF_item0.png" x="317" y="165" width="125" height="226" />
+     <Image name="MatchF_themeK.png" src="MatchF/MatchF_themeK.png" x="245" y="19" width="274" height="58" id="themeK" />
+     <Image name="MatchF_theme2.png" src="MatchF/MatchF_theme2.png" x="289" y="41" width="184" height="26" id="theme2" />
+     <Image name="MatchF_theme1.png" src="MatchF/MatchF_theme1.png" x="289" y="42" width="184" height="25" id="theme1" />
+     <Image name="MatchF_backBtn.png" src="MatchF/MatchF_backBtn.png" x="19" y="18" width="99" height="55" id="backBtn" />
+</view>

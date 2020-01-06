@@ -1,0 +1,10 @@
+<view name="Info" extend="wy.BaseSprite"  width="750" height="1334" >
+     <Image name="mc.png" src="Info/mc.png" x="0" y="0" width="750" height="1334" id="mc" />
+     <Image name="Info_dkImg.png" src="Info/Info_dkImg.png" x="24" y="135" width="712" height="1009" id="dkImg" />
+     <Image name="Info_btn1_1.png" src="Info/Info_btn1_1.png" x="64" y="184" width="141" height="38" id="btn1_1" />
+     <Image name="Info_btn2_1.png" src="Info/Info_btn2_1.png" x="216" y="184" width="141" height="38" id="btn2_1" />
+     <Image name="Info_btn3_1.png" src="Info/Info_btn3_1.png" x="368" y="184" width="141" height="38" id="btn3_1" />
+     <Image name="Info_btn1_2.png" src="Info/Info_btn1_2.png" x="63" y="175" width="185" height="59" id="btn1_2" />
+     <Image name="Info_btn2_1.png" src="Info/Info_btn2_1.png" x="156" y="175" width="244" height="59" id="btn2_2" />
+     <Image name="Info_btn3_2.png" src="Info/Info_btn3_2.png" x="306" y="175" width="243" height="58" id="btn3_2" />
+</view>

@@ -1,0 +1,8 @@
+<view name="GameFM" extend="wy.BaseSprite"  width="624" height="432" >
+     <Image name="组_2" src="GameFM/组_2" x="0" y="0" width="624" height="432" />
+     <Label text="label" align="left" size="20" color="0" x="279" y="30" width="69" height="34" id="timeTxt" />
+     <Image name="GameFM_eleImgB.png" src="GameFM/GameFM_eleImgB.png" x="230" y="104" width="82" height="81" id="eleImg1" />
+     <Image name="GameFM_eleImgB.png" src="GameFM/GameFM_eleImgB.png" x="317" y="104" width="82" height="81" id="eleImg2" />
+     <Image name="GameFM_eleImgB.png" src="GameFM/GameFM_eleImgB.png" x="405" y="104" width="82" height="81" id="eleImg3" />
+     <Image name="GameFM_eleImgA.png" src="GameFM/GameFM_eleImgA.png" x="143" y="104" width="80" height="80" id="eleImg0" />
+</view>

@@ -1,0 +1,16 @@
+option java_package="protobuf";
+option java_outer_classname="GameInitBuf";
+
+message GameInitVo{
+
+	required int64 player_id = 1;
+	required int32 game_type = 2;
+	optional int64 self_player_id = 3;
+	required int32 level = 4;
+	optional string spare1 = 5;
+	optional string spare2 = 6;
+	optional string spare3 = 7;
+	optional string spare4 = 8;
+	optional string spare5 = 9;
+	
+}
